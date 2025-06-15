@@ -1,0 +1,766 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+
+    .navbar {
+      max-width: 100%;
+      height: 80px;
+      background-color: #aa0601;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 40px;
+    }
+    
+    .logo img {
+      height: 40px;
+    }
+    
+
+    .nav-links {
+      flex-wrap:wrap;
+      max-width: 100%;
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+    
+    .nav-links a {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+    }    
+    
+    .hero-image {
+      position: relative;
+      max-width: 100%;
+      overflow: hidden;
+    }
+    
+    .hero-image img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .hero-text-overlay {
+        position: absolute;
+        bottom: 230px;         
+        right: 100px;         
+        text-align: right;
+      }
+    
+    .hero-text-overlay h1 {
+      font-size: 32px;
+      margin-bottom: 0px;
+      color: #650300;
+    }
+    
+    .hero-text-overlay p {
+      font-size: 60px;
+      font-weight: bold;
+      color: #650300;
+    }
+    .pinkhome{
+      background-color: #fbf2f2;
+      width: 100%;
+      height: 600px;
+    }
+    .pinkhome h1{
+      font-size: 45px;
+      margin-bottom: 30px;
+      color: #650300;
+      text-align: center;
+      padding-top: 60px;
+    }
+    .pinkhome img{
+      width: 80px;
+      height: 80px;
+      text-align: center;
+      top: 30%;
+    }
+    .pink1{
+      margin-top: 141px;
+      margin-right: 30px;
+    }
+    .pink1 h2{
+      margin-left: 60px;
+      color: #650300;
+    }
+    .pink1 img{
+      margin-left: 65px;
+    }
+    .pink1 p{
+      margin-top: 20px;
+    }
+    .pink2{
+      margin-top: 110px;
+      margin-left: 20px;
+    }
+    .pink2 h2{
+      margin-left: 70px;
+      color: #650300;
+    }
+    .pink2 p{
+      margin-top: 20px;
+    }
+    .pink2 img{
+      margin-left: 115px;
+      margin-top: 30px;
+    }
+    .pink3 img{
+      margin-left: 90px;
+    }
+    .pink3{
+      margin-top: 140px;
+      margin-left: 30px;
+    }
+    .pink3 h2{
+      margin-left: 60px;
+      color: #650300;
+    }
+    .pink3 p{
+      margin-top: 20px;
+    }
+    .pink4 img{
+      margin-left: 60px;
+    }
+    .pink4{
+      margin-top: 137px;
+      margin-left: 60px;
+    }
+    .pink4 h2{
+      margin-left: 60px;
+      color: #650300;
+    }
+    .pink4 p{
+      margin-top: 22px;
+    }
+    .logo2{
+      display: flex;
+      height: 200px;
+      width: 1210px;
+      margin-bottom: 120px;
+      margin-top: 20px;
+      margin-left: 130px;
+      padding-bottom: 20px;
+    }
+    
+    .type{
+      font-size:45px;
+      color:#650300;
+      text-align: center;
+      margin-top: 100px;
+    }
+    .white img{
+      justify-content: space-between;
+      width: 400px;
+      height: 400px;
+      margin-bottom: 30px;
+      margin-top: 70px;
+    }
+    .white{
+      display:flex;
+      justify-content: space-around;
+      margin: 0;
+    }
+    .model{
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .bigphoto{
+      width: 100%;
+      height: 500px;
+    }
+    .smallphoto1{
+      width: 500px;
+      height: 140px;
+    }
+    .smallphoto2{
+      width: 500px;
+      height: 240px;
+    }
+    .design{
+      background-size: cover;
+      position: relative;
+    }
+    .design h2{
+      text-align: center;
+    }
+    .title{
+      font-size:30px;
+      font-weight: bold;
+      color:white;
+      top:15%;
+      left:40%;
+      position: absolute;
+      text-align: center;
+    }
+    .small1{
+      position: absolute;
+      top: 40%;
+      left:17%;
+    }
+
+    .small2{
+      position: absolute;
+      top: 40%;
+      left:50%;
+    }
+    
+    .small1 img{
+      width: 500px;
+      height: 200px;
+    }
+    .small2 img{
+      width: 500px;
+      height: 200px;
+    }
+    .model h2{
+      font-size: 37px;
+      margin-bottom: 20px;
+      color: #aa0601;
+      font-style: italic;
+    }
+    .detail1{
+      position: absolute;
+      background-color: white;
+      top: 79%;
+      left:17%;
+      width: 480px;
+      height: 60px;
+    }
+    .detail2{
+      position: absolute;
+      background-color: white;
+      top: 79%;
+      left:50%;
+      width: 500px;
+      height: 60px;
+    }
+    .detail1 h2{
+      color: #aa0601;
+      font-style: italic;
+      font-size: 38px;
+      margin-top: 7px;
+    }
+    .detail2 h2{
+      color: #aa0601;
+      font-style: italic;
+      font-size: 38px;
+      margin-top: 7px;
+    }
+    .bigGuest h1{
+      text-align: center;
+      color:#650300;
+    }
+    .guest1 img{
+      width: 300px;
+      height: 300px;
+    }
+    .guest2 img{
+      width: 300px;
+      height: 300px;
+    }
+    .guest3 img{
+      width: 300px;
+      height: 300px;
+    }
+    .guest4 img{
+      width: 300px;
+      height: 300px;
+    }
+    .guestHome{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 100px;
+    }
+    .recommend h1{
+      color: #650300;
+      margin-top: 100px;
+      font-size: 45px;
+    }
+    .date{
+      margin-top: 70px;
+    }
+    .guest1{
+      box-shadow: 0px 2px 6px #00000029;
+      border: 1px solid #DEE2E6;
+      border-radius: 4px;
+    }
+    .guest2{
+      box-shadow: 0px 2px 6px #00000029;
+      border: 1px solid #DEE2E6;
+      border-radius: 4px;
+    }
+    .guest3{
+      box-shadow: 0px 2px 6px #00000029;
+      border: 1px solid #DEE2E6;
+      border-radius: 4px;
+    }
+    .guest4{
+      box-shadow: 0px 2px 6px #00000029;
+      border: 1px solid #DEE2E6;
+      border-radius: 4px;
+    }
+    .guest1 h4, .guest2 h4, .guest3 h4, .guest4 h4 {
+      margin-left: 15px;
+    }
+    .guest1 p, .guest2 p, .guest3 p, .guest4 p{
+      margin-left: 15px;
+      margin-top: 20px;
+    }
+    .pinkHome2{
+      margin-top: 110px;
+      background-color: #fbf2f2;
+      top: 3000px;
+      left: 0px;
+      width: 100%;
+      height: 870px;
+    }
+    .pinkHome2 h2{
+      color: #650300;
+      text-align: center;
+      font-size: 45px;
+      padding-top: 70px;
+    }      
+    .pinkHome2 p{
+      font-size: 18px;
+      margin-left: 470px;
+      margin-top: 50px;
+    }
+    .posthome{
+      background-color: #fbf2f2;
+      padding: 20px;
+      border-radius: 8px;
+      width: 900px;
+      margin-left: 150px;
+    }
+    .post1{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 16px;
+      margin-left: 300px;  
+    }
+    .post2{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 16px;
+      margin-left: 300px;
+    }
+    .post3{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 16px;
+      margin-left: 300px;  
+    }
+    .post4{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 16px;
+      margin-left: 300px;  
+    }
+    .post5{
+      margin-left: 300px;
+    }
+    .post1 input{
+      background-color: #fbf2f2;
+      height: 36px;
+    }
+    .post2 input{
+      background-color: #fbf2f2;
+      height: 36px;
+    }
+    .post3 input{
+      background-color: #fbf2f2;
+      height: 36px;
+    }
+    .post4 textarea{
+      background-color: #fbf2f2;
+    }
+    .pinkHome2 button{
+      background-color: #aa0601;
+      color:white;
+      margin-left: 580px;
+      margin-top: 30px;
+      width: 330px;
+      height: 40px;
+    }
+    body footer{
+      display: flex;
+      height: 350px;
+      background-color: #aa0601;
+      width: 100%;
+    }
+    .footerLink{
+      display: flex;
+      gap: 30px;
+      margin-left: 150px;
+      margin-top: 70px;
+      list-style: none;
+    }
+    .footerLink li{
+      color: white;
+      font-size: 20px;
+    }
+    .footerlogo{
+      display: flex;
+      list-style: none;
+      margin-left: 1100px;
+      gap: 20px;
+    }
+    .footerlogo img{
+      height: 45px;
+      width: 45px;
+    }
+    .phonehome{
+      display:flex;
+      color: white;
+    }
+    .emailhome{
+      width: 100%;
+      display:flex;
+      color: white;
+    }
+    .lasthome{
+      display:flex;
+    }
+    .lasthome span{
+      margin-top:20px;
+      margin-left:155px;
+      color: white;
+    }
+    .lasthome li{
+      color:white;
+    }
+    .lastli{
+      display: flex;
+      list-style: none;
+      gap: 40px;
+      margin-left: 600px;
+      margin-top: 20px;
+    }
+    .feet{
+      text-align: center;
+    }
+    .hrhr{
+      margin-left: 150px;
+      width:1127px;
+      text-align: center;
+    }
+    .phonehome{
+      margin-bottom: 20px;
+      margin-left: 150px;
+    }
+    .emailhome{
+      margin-left: 150px;   
+      margin-bottom: 20px;   
+    }
+    .phonehome h2{
+      margin-left: 10px;
+      font-size: 27px;
+      font-weight: 400;
+    }
+    .emailhome h2{
+      margin-left: 10px;
+      font-size: 27px;
+      font-weight: 400;
+    }
+/* === 880px 以下（平板） === */
+@media (max-width: 880px) {
+  .navbar {
+    height: 80px;
+    padding: 20px;
+  }
+
+  .nav-links {
+    margin-right: 40px;
+    display: flex;
+    gap: 70px;
+  }
+  .hero-text-overlay {
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    bottom: 100px;
+    margin-left: 30px;
+  }
+
+  .hero-text-overlay h1 {
+    font-size: 32px;
+    margin-left: 60px;
+  }
+
+  .hero-text-overlay p {
+    font-size: 60px;
+  }
+
+  .logo2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+  }
+
+  .pinkhome{
+    height: 800px;
+  }
+
+  .pink1 p, .pink2 p, .pink3 p, .pink4 p{
+    font-size:10px;
+  }
+
+  .pink1, .pink2, .pink3, .pink4 {
+    margin: 40px 0;
+    text-align: center;
+  }
+
+  .pink1 img, .pink2 img, .pink3 img, .pink4 img {
+    margin: 0 auto;
+  }
+
+  .white {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .white img {
+    width: 80%;
+    height: auto;
+  }
+
+  .small1,
+  .small2,
+  .detail1,
+  .detail2 {
+    position: static;
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .title {
+    position: static;
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  .guestHome {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .pinkHome2 p {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .posthome {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .post1, .post2, .post3, .post4, .post5 {
+    margin-left: 0;
+  }
+
+  .pinkHome2 button {
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+  }
+
+  footer {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .footerLink,
+  .footerlogo,
+  .lastli {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    gap: 10px;
+  }
+
+  .phonehome,
+  .emailhome {
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hrhr {
+    margin-left: 0;
+    width: 90%;
+  }
+
+  .lasthome span {
+    margin-left: 0;
+    text-align: center;
+    display: block;
+  }
+}
+
+/* === 630px 以下（手機） === */
+@media (max-width: 670px) {
+  /*今日修改部分*/
+  .navbar{
+    height: 230px;
+  }
+  .nav-links{
+    width: 55%;
+    margin-right: 140px;
+    margin-top:50px;
+    flex-grow: 0;
+    }
+  .nav-links2 a{
+    margin-left: 100px;  
+  }
+  .nav-links4 a{
+    margin-left: 120px;
+  }
+  .logo{
+    margin-bottom: 150px;
+  }
+
+  .hero-text-overlay{
+    position: absolute;
+  }
+  .hero-text-overlay h1 {
+    font-size: 18px;
+  }
+
+  .hero-text-overlay p {
+    font-size: 28px;
+  }
+
+  .pinkhome h1,
+  .pinkHome2 h2,
+  .recommend h1 {
+    font-size: 28px;
+    padding-top: 40px;
+  }
+  .pinkhome{
+    height:1150px;
+  }
+  .footerlogo{
+    display: none;
+  }
+  .lasthome{
+    display:none;
+  }
+  .hrhr{
+    display:none;
+  }
+  .log2{
+    display: block;
+    margin-right: 50px;
+  }
+  .pink1{
+    margin-left: 50px;
+  }
+  .pink2{
+    margin-left: 100px;
+  }
+  .pink3{
+    margin-left: 100px;
+  }
+  .pink4{
+    margin-left: 100px;
+  }
+  .pink1 img{
+    margin-left: 50px;
+  }
+  .pink1 h2{
+    margin-left: 50px;
+  }
+  .pink1 p{
+    margin-left: 55px;
+    font-size: 16px;
+  }
+  .pink2 p{
+    font-size: 16px;
+    margin-right: 100px;
+  } 
+  .pink2 img{
+    margin-right: 90px;
+  }
+  .pink2 h2{
+    font-size: 24px;
+    margin-right: 160px;
+  }
+  .pink3 p{
+    margin-right: 100px;
+    font-size: 16px;
+  }
+  .pink3 img{
+    margin-right: 100px;
+  }
+  .pink3 h2{
+    margin-right: 160px;
+  }
+  .pink4 img{
+    margin-left: 30px;
+  }
+  .pink4 h2{
+    margin-right: 30px;
+  }
+  .pink4 p{
+    font-size: 16px;
+  }
+  .type {
+    font-size: 30px;
+  }
+
+  .model h2 {
+    font-size: 24px;
+  }
+  .title{
+    top:30px;
+    left: 200px;
+    position: absolute;
+  }
+  .post1 input,
+  .post2 input,
+  .post3 input,
+  .post4 textarea {
+    width: 100%;
+  }
+
+  .footerlogo img {
+    width: 36px;
+    height: 36px;
+  }
+  .footerLink{
+    display:none;
+  }
+  .phonehome h2{
+    margin-left: 100px;
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
+  .phonehome{
+    display: flex;
+  }
+  .phonehome svg{
+    margin-right: 150px;
+    height: 30px;
+    width: 30px;
+  }
+  .emailhome {
+  }
+  .lastli {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+  }
+  .feet{
+    display: flex;
+  }
+}
